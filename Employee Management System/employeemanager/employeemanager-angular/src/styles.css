@@ -1,0 +1,78 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+body{
+    padding-top: 70px;
+    background: #BFCDE0;
+}
+.navbar-nav {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+.navbar-nav .nav-link,
+.navbar-nav .nav-item a {
+    cursor: pointer;
+}
+#navReport {
+    color: #ffffffbd;
+    transition: .2s ease-in-out;
+}
+#navReport:hover {
+    color: #ffffff;
+    background: #4be6c1;
+}
+#navReport:active {
+    background: white;
+}
+.nav-link {
+    background: #319c83;
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 5px;
+    padding: .3rem;
+    color: rgb(47, 85, 255);
+    margin-left: 2rem;
+}
+#addEmployeeNavButton {
+    color: rgb(255, 255, 255);
+    padding: .5rem;
+}
+.custom-navbar {
+    background: #3B3355;
+}
+.card {
+    border: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    margin-bottom: 30px;
+}
+.w-60 {
+    width: 60px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+a {
+    color: #6817ff;
+}
+.department {
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.342);
+}
+.add-employee {
+    margin-left: 0;
+    background: #5D5D81;
+    border-radius: 5px;
+    padding: .3rem;
+    transition: .2s ease-in-out;
+}
+
+.add-employee:hover {
+    transition: .2s ease-in-out;
+    background: rgb(212, 104, 255);
+    cursor: pointer;
+}
+
+.add-employee:active {
+    transition: .2s;
+    background: rgb(66, 0, 153);
+}
